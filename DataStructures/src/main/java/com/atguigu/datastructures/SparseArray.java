@@ -14,7 +14,7 @@ import java.util.List;
  * @author sunbaojin
  * @date 2020/5/9 22:31
  */
-public class sparseArray {
+public class SparseArray {
 
     public static void main(String[] args) throws Exception {
         // 创建一个原始数组 11*11 ， 0：无棋子 1：黑棋 2:蓝棋

@@ -20,4 +20,12 @@ public class CommonUtils {
             System.out.println();
         }
     }
+
+    /**
+     * 打印前后带===============的字符串
+     * @param printStr
+     */
+    public static void printString(String printStr){
+        System.out.println("================"+printStr+"===================");
+    }
 }
