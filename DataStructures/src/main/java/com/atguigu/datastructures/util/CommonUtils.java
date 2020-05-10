@@ -1,4 +1,4 @@
-package com.atguigu.datastructures;
+package com.atguigu.datastructures.util;
 
 /**
  * 公共方法类
