@@ -1,4 +1,6 @@
-package com.atguigu.datastructures;
+package com.atguigu.datastructures.queue;
+
+import com.atguigu.datastructures.CommonUtils;
 
 import java.util.Scanner;
 
