@@ -1,11 +1,24 @@
 package com.atguigu.datastructures.util;
 
+import java.util.regex.Pattern;
+
 /**
  * 公共方法类
  * @author sunbaojin
  * @date 2020/5/9 23:10
  */
 public class CommonUtils {
+
+
+    /*
+     * 判断是否为整数
+     * @param str 传入的字符串
+     * @return 是整数返回true,否则返回false
+     */
+    public static boolean isInteger(String str) {
+        Pattern pattern = Pattern.compile("^[-\\+]?[\\d]*$");
+        return pattern.matcher(str).matches();
+    }
 
 
     /**
@@ -27,5 +40,21 @@ public class CommonUtils {
      */
     public static void printString(String printStr){
         System.out.println("================"+printStr+"===================");
+    }
+
+    /**
+     * 打印二维数组
+     * @param migongArray
+     */
+    public static  void printArray(int[][] migongArray){
+        for (int i = 0; i < migongArray.length; i++) {
+            int[] ints = migongArray[i];
+            for (int j = 0; j < ints.length; j++) {
+                int anInt = ints[j];
+                System.out.printf("%d\t",anInt);
+            }
+            // 换行
+            System.out.println();
+        }
     }
 }
