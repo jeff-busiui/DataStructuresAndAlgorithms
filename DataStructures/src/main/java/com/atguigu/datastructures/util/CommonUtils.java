@@ -57,4 +57,16 @@ public class CommonUtils {
             System.out.println();
         }
     }
+
+    /**
+     * 打印一个一维数组的所有数据
+     * @param oneArray
+     */
+    public static void printIntOneArray(int oneArray[]){
+        for (int i = 0; i < oneArray.length; i++) {
+            System.out.printf("%d\t" , oneArray[i]);
+        }
+        // 换行
+        System.out.println();
+    }
 }
