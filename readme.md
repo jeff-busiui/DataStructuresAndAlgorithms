@@ -1,9 +1,10 @@
 ```text
-访问github比较慢的解决方法：https://baijiahao.baidu.com/s?id=1608100091125662190&wfr=spider&for=pc
+访问github比较慢的解决方法：https://www.cnblogs.com/knuzy/p/9415243.html
 结论，修改hosts，增加：
 #github
-199.232.69.194  github.global.ssl.fastly.net
-140.82.113.4 github.com
+199.232.69.194   github.global.ssl.fastly.net
+140.82.113.4  github.com
+199.232.68.133 avatars1.githubusercontent.com
 ```
 
 # 数据结构和算法
@@ -104,14 +105,14 @@
 * 4.栈实现后缀表达式的计算器
 * 5.前缀、中缀、后缀表达式的相互转换
 
-## 4、递归
+## 5、递归
 * 1.递归的应用场景
 * 2.递归的注意点：必须要尽可能的接近退出条件
 * 3.递归实现迷宫问题
 * 4.递归实现8皇后的问题解法，92种方法
 
 
-## 5、排序
+## 6、排序
 * 1.时间频次、时间复杂度的含义
 ```text
 时间频度
@@ -225,7 +226,7 @@ PS:典型的空间换时间，10个桶，那就扩大了10倍空间
 
 ```
 
-## 5、查找
+## 7、查找
 * 1.线性查找
 ```text
 循环数组，查询值
