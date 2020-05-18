@@ -1,3 +1,11 @@
+```text
+访问github比较慢的解决方法：https://baijiahao.baidu.com/s?id=1608100091125662190&wfr=spider&for=pc
+结论，修改hosts，增加：
+#github
+199.232.69.194  github.global.ssl.fastly.net
+140.82.113.4 github.com
+```
+
 # 数据结构和算法
 ## 1、稀疏数组[com.atguigu.datastructures.sparseArray]
 * 完成11*11的数值转化为稀疏数组

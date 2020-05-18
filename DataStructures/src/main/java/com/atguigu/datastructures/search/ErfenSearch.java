@@ -7,7 +7,7 @@ package com.atguigu.datastructures.search;
  * 3.查找的值 》 中间的值，那就向右递归查找
  * 4.查找的值 < 中间的值，那就向左递归查找
  * 5.查找的值 == 中间的值，那就直接返回
- * @author sunbaojin
+ * @author sunbaojinq
  * @date 2020/5/18 8:51
  */
 public class ErfenSearch {
